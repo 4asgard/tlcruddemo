@@ -1,10 +1,10 @@
 package com.example.tlcruddemo.user;
 
 public class User {
-    Long id;
-    String username;
-    String email;
-    Boolean enabled;
+    public Long id;
+    public String username;
+    public String email;
+    public Boolean enabled;
 
     public User(Long id) {
         this.id = id;
